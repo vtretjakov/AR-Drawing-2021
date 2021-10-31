@@ -18,6 +18,9 @@
 		BEDB2EE6200EABAD001C6BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB2EE4200EABAD001C6BBC /* LaunchScreen.storyboard */; };
 		BEDB2EEE200ECB94001C6BBC /* Options.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDB2EED200ECB94001C6BBC /* Options.storyboard */; };
 		BEDB2EF0200ECC4C001C6BBC /* BasicShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB2EEF200ECC4C001C6BBC /* BasicShape.swift */; };
+		C471865E272EAAAA000C389F /* Screenshot01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C471865B272EAAAA000C389F /* Screenshot01.jpeg */; };
+		C471865F272EAAAA000C389F /* Screenshot02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C471865C272EAAAA000C389F /* Screenshot02.jpeg */; };
+		C4718660272EAAAA000C389F /* Screenshot03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C471865D272EAAAA000C389F /* Screenshot03.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		BEDB2EE7200EABAD001C6BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEDB2EED200ECB94001C6BBC /* Options.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Options.storyboard; sourceTree = "<group>"; };
 		BEDB2EEF200ECC4C001C6BBC /* BasicShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShape.swift; sourceTree = "<group>"; };
+		C471865B272EAAAA000C389F /* Screenshot01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot01.jpeg; sourceTree = "<group>"; };
+		C471865C272EAAAA000C389F /* Screenshot02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot02.jpeg; sourceTree = "<group>"; };
+		C471865D272EAAAA000C389F /* Screenshot03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot03.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 		BEDB2ECD200EABAD001C6BBC = {
 			isa = PBXGroup;
 			children = (
+				C471865A272EAA89000C389F /* Screenshots */,
 				BEDB2ED8200EABAD001C6BBC /* ARKit-Drawing */,
 				BEDB2ED7200EABAD001C6BBC /* Products */,
 			);
@@ -88,6 +95,16 @@
 				BE618F31203E31B8005EC6F1 /* UIViewController+Extensions.swift */,
 			);
 			path = Options;
+			sourceTree = "<group>";
+		};
+		C471865A272EAA89000C389F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C471865B272EAAAA000C389F /* Screenshot01.jpeg */,
+				C471865C272EAAAA000C389F /* Screenshot02.jpeg */,
+				C471865D272EAAAA000C389F /* Screenshot03.jpeg */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +167,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C471865E272EAAAA000C389F /* Screenshot01.jpeg in Resources */,
 				BEDB2EDC200EABAD001C6BBC /* models.scnassets in Resources */,
+				C471865F272EAAAA000C389F /* Screenshot02.jpeg in Resources */,
 				BEDB2EEE200ECB94001C6BBC /* Options.storyboard in Resources */,
 				BEDB2EE6200EABAD001C6BBC /* LaunchScreen.storyboard in Resources */,
 				BEDB2EE3200EABAD001C6BBC /* Assets.xcassets in Resources */,
+				C4718660272EAAAA000C389F /* Screenshot03.jpeg in Resources */,
 				BEDB2EE1200EABAD001C6BBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
